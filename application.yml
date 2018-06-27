@@ -1,0 +1,15 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-weisg-dev
+---
+spring:
+  profiles: stg
+  application:
+    name: microservicecloud-config-weisg-stg
+#要保存UTF-8格式    
