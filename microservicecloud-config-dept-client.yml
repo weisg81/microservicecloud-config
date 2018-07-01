@@ -6,6 +6,7 @@
 server:
   port: 8001
 spring:
+	 profiles: dev
    application:
     name: microservicecloud-dept 
    datasource:
@@ -43,6 +44,7 @@ info:
 server:
   port: 8001
 spring:
+	 profiles: stg
    application:
     name: microservicecloud-dept 
    datasource:
